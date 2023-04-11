@@ -1,0 +1,691 @@
+@import url(./reset.css);
+
+body{
+    background-color: #FAF5ED;
+    font-family: Noto Sans;
+    font-size: 16px;
+    color: white;
+    font-weight: 500px;
+    line-height: 1.6;
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+}
+
+/* 大圖 */
+.top{
+    background-image: url(../img/p5/p5_top.png);
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* display: none; */
+}
+
+/* ------------------------------------------選單------------------------------------------- */
+
+.list{
+    background-image: linear-gradient(180deg, #544332ad 0% ,  #54433222 100%);
+    height: 120px;
+    position: fixed;
+    width: 100%;
+}
+
+.list2{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list2 a img{
+    width: 250PX;
+    padding: 5px 50px;
+}
+
+.list2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.list2 ul li{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.list2 ul li a{
+    color: #FAF5ED;
+    text-decoration: none;
+}
+
+.list2 ol{
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex; 
+    margin-left: 30px;
+}
+
+.list2 ol a{
+    display: block;
+    line-height: 3;
+}
+
+.fa-user{
+    color: #FAF5ED;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fa-cart-shopping{
+    color: #FAF5ED;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* --------------------------------大標 --------------------------------------------*/
+
+.top2{
+    margin-right: 600px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+
+.top2 h1{
+    color: #faf5edd0;
+    font-size: 30px;
+    padding-top: 40%;
+}
+
+.top2 h2{
+    color: #faf5ed80;
+    font-size: 20px;
+}
+
+/* -----------------------------------------------內文 ---------------------------------------*/
+
+.main{
+    margin: 0 auto;
+}
+
+.title{
+    background-image: url(../img/p5/p5_blue.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.title h1{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.5em;
+    padding-top: 50px;
+}
+
+.about{
+    color: #006980;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* 聯絡資訊 */
+.main1{
+    margin: 100px 65px;
+}
+
+.text>.line1{
+    border-left: 5px solid #87480080;
+    width: 200px;
+    height: 30px;
+}
+
+.line1 h2{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.text h3{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* 地圖 */
+.line2{
+    border-left: 5px solid #87480080;
+    width: 200px;
+    height: 30px;
+    margin-top:100px;
+}
+
+.line2 h4{
+    color: #006980;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    margin-left: 15px;
+}
+
+iframe{
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.main2{
+    display: flex;
+    margin: 100px auto;
+}
+
+/* --------------------------------------------表單 -----------------------------------*/
+.form{
+    background-color: #00698099;
+    width: 500px;
+    border-radius: 5px;
+    flex-shrink: 1;
+    overflow: hidden;
+}
+
+.form ul{
+    margin: 50px auto 0;
+    font-size: 16px;
+    width: 75%;
+}
+
+.form ul li{
+    line-height: 2;
+    display: flex;
+    align-items: start;
+}
+
+.form ul li p{
+    color: #FAF5ED;
+    display: inline-block;
+    width: 100px;
+}
+
+.form input{
+    margin-bottom: 30px;
+}
+
+.name{
+    width: 260px;
+	height: 25px;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+	padding-left: 10px;
+	outline: 0;
+}
+
+.mail{
+    width: 260px;
+	height: 25px;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+	padding-left: 10px;
+	outline: 0;
+}
+
+.phone{
+    width: 260px;
+	height: 25px;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+	padding-left: 10px;
+	outline: 0;
+}
+
+select{
+    color: #006980;
+    width: 275px;
+	height: 30px;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+	padding-left: 5px;
+    margin-bottom: 30px;
+	outline: 0;
+}
+
+textarea{
+	border: 1px solid #ccc;
+    border-radius: 5px;
+	padding: 10px;
+	outline: 0;
+	background-color: #f6f6f6;
+    width: 255px;
+    height: 250px;
+}
+
+.send{
+    color: #006980;
+    width: 60px;
+	height: 30px;
+	font-size: 14px;
+    font-weight: 600;
+	background-color:#FAF5ED;
+	border: none;
+	display: block;
+	margin: 50px auto;
+    border-radius: 5px;
+}
+
+/* -----------------------------------------footer ------------------------------------------*/
+
+.footer{
+    background-image: url(../img/footer/footer.jpg);
+    height: 350px;
+    color: #544332;
+    background-size: cover;
+    /* display: none; */
+}
+
+.footer ul{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer li{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.footer ul li h2{
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+
+.footer ul li h3{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.fa-line{
+    color: #544332;
+    padding-left: 15px;
+}
+
+.fa-square-facebook{
+    color: #544332;
+    padding-left: 15px;
+}
+
+.fa-square-instagram{
+    color: #544332;
+    padding-left: 15px;
+}
+
+.footer ul li h4{
+    padding-top: 40px;
+    padding-right: 150px;
+}
+
+.code{
+    display: flex;
+}
+
+.footer ul li h5{
+    padding-top: 30px;
+}
+
+.footer ul li:last-child{
+    display: flex;
+}
+
+.footer ul li h6{
+    padding-top: 40px;
+    padding-left: 20px;
+    letter-spacing: 0.1em;
+    line-height: 2;
+}
+
+
+.footer p{
+    font-size: 12px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* -------------------------------------hover -------------------------------------------*/
+
+.list2 ul li a:hover{
+    color: #F3D1AA;
+}
+
+.list2 ul li:hover{
+    border-bottom: 2px solid #00698088;
+}
+
+a:hover>.fa-user{
+    color: #F3D1AA;
+}
+
+a:hover>.fa-cart-shopping{
+    color: #F3D1AA;
+}
+
+.fa-line:hover{
+    color: #874800;
+}
+
+.fa-square-facebook:hover{
+    color: #874800;
+}
+
+.fa-square-instagram:hover{
+    color: #874800;
+}
+
+.form:hover{
+    box-shadow: 0 0 20px 10px rgba(100, 100, 100, 0.3);
+}
+
+.send:hover{
+    background-color: #006980;
+    color: #FAF5ED;
+    cursor: pointer;
+}
+
+/*------------------------ js -------------------------------------*/
+
+.container{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: none;
+}
+
+button {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    width: 50px;
+    height: 50px;
+}
+  
+button span {
+    background-color: #FFE7CC;
+    display: block;
+    height: 3px;
+    margin-bottom: 8px;
+    transition: ease 0.3s;
+}
+
+button.toggled span:nth-child(1) {
+    transform: rotate(45deg);
+    margin-top:8px;
+}
+  
+button.toggled span:nth-child(2) {
+    transform: rotate(-135deg);
+    margin-top:-10px;
+}
+  
+button.toggled span:nth-child(3) {
+    transform: rotate(-45deg);
+    margin-top: -12px;
+}
+
+/*-------------------------------- 414 --------------------------------*/
+
+@media screen and (max-width: 414px){
+
+    .top{
+        background-image: url(../img/p5/p5_top2.png);
+        background-color: rgba(0, 0, 0, 0.2);
+        width: auto;
+        height: 100vh;
+        background-position: top;
+        background-size: contain;
+    }
+    
+    .list {
+        height: 60px;
+        width: 100%;
+    }    
+
+    .container{
+        display: block;
+        margin-left: 10px;
+    }
+
+    button span{
+        background-color: #006980;
+    }
+
+    .list2 a img {
+        width: 120PX;
+        padding: 0;
+        margin-top: 5px;
+        padding-left: 50px;
+    }
+    
+    .list2 {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .list2 ul {
+        background-image: linear-gradient(180deg, #2c2218db 50% ,  #41322380 100%);
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        flex-direction: column;
+        padding: 20px 0;
+        display: none;
+    }
+
+    .list2 ul li{
+        letter-spacing: 0.5em;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .list2 ul li:hover{
+        margin: 0 auto;
+        border-bottom: 1px solid #00698088;
+        width: 200px;
+    }
+
+    .list2 ul li a {
+        color: #FAF5ED;
+        text-decoration: none;
+        line-height: 1.2;
+    }
+
+    .list2 ol {
+        margin-top: 0;
+        margin-right: 20px;
+        display: flex;
+        margin-left: 0;
+    }
+
+    .fa-solid, .fas {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .top2{
+        margin-right: 0;
+    }
+
+    .top2 h1{
+        font-size: 24px;
+        padding-top: 150px;
+    }
+
+    .top2 h2{
+        font-size: 16px;
+    }
+
+    .title{
+        height: 80px;
+    }
+
+    .title h1{
+        font-size: 22px;
+        padding-top: 10px;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+    }
+
+    .main1{
+        margin: 80px auto 0;
+    }
+
+    .text{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .text h3{
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        margin-left: 22px;
+    }
+
+    .line2{
+        margin-top: 50px;
+        margin-left: 5%;
+    }
+
+    iframe{
+        margin-top: 20px;
+        width: 100vw;
+        height: 300px;
+    }
+
+    .main2{
+        margin: 60px auto 0;
+    }
+
+    .form{
+        width: 100vw;
+        border-radius: 0;
+        box-shadow: 0 0 20px 10px rgba(100, 100, 100, 0.3);
+    }
+
+    .form ul{
+        width: 80%;
+        margin: 30px auto 0;
+    }
+
+    .form ul li p{
+        width: 120px;
+    }
+
+    textarea{
+        height: 100px;
+    }
+
+    .send{
+        margin: 30px auto;
+    }
+
+    .footer{
+        background-image: url(../img/footer/footer2.png);
+        background-size: cover;
+        height: auto;
+        width: auto;
+    }
+
+    .footer ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer li{
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 10px;
+        align-items: center;
+    }
+
+    .footer ul li h2{
+        font-size: 20px;
+        margin-top: 50px;
+        text-align: center;
+        letter-spacing: 0.3em;
+    }
+
+    .footer ul li h3{
+        font-size: 30px;
+        text-align: center;
+        padding-right: 20px;
+        margin-top: 0;
+    }
+
+    .footer ul li h4{
+        width: 200px;
+        padding-right: 0;
+        margin-top: 20px;
+    }
+
+    .footer ul li h4 img{
+        width: 200px;
+    }
+
+    .footer ul li:last-child{
+        flex-direction: column;
+    }
+
+    .code{
+        margin-top: 20px;
+    }
+
+    .footer ul li h5{
+        padding-top: 40px;
+    }
+
+    .footer ul li h5 img{
+        width: 70px;
+    }
+
+    .footer ul li h6{
+        padding-left: 10px;
+        font-size: 12px;
+        font-weight: 550;
+    }
+
+    .footer p{
+        margin-top: 0;
+        width: 88%;
+        margin: 80px auto 0;
+        line-height: 1.5;
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+
+}
