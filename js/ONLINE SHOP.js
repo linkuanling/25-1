@@ -60,6 +60,7 @@ $(function(){
 
 });
 
+
 $(function(){
 
     var clicked = false; 
@@ -75,13 +76,24 @@ $(function(){
 });
 
 
-let lightbox1 = document.getElementById("lightbox1");
 
-// 頁面上的按鈕
-var in1 = document.getElementsByClassName("in1")[0];
-in1.addEventListener("click", function(){
-  lightbox1.classList.remove("none1");
-});
+let lightbox1 = document.getElementsByClassName("lightbox1")[0];
+let productIntro = document.getElementsByClassName("productIntro");
+// 了解詳情
+var in1 = document.getElementsByClassName("in1");
+for(let i=0 ; i<=8 ; i++){
+
+  in1[i].addEventListener("click", function(){
+
+    lightbox1.classList.remove("none1");
+    for(let j=0 ; j<=8 ; j++){
+      productIntro[j].style.display = "none"
+    }
+      productIntro[i].style.display = "block"
+
+  });
+
+};
 
 var close1 = document.getElementsByClassName("close1")[0];
 close1.addEventListener("click", function(){
@@ -92,10 +104,10 @@ lightbox1.addEventListener("click", function(){
   this.classList.add("none1");
 });
 
-// 點擊 lightbox 中的白色區域，不會關掉 modal
 lightbox1.querySelector("article").addEventListener("click", function(e){
   e.stopPropagation();
 });
+
 
 
 $(function(){

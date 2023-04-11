@@ -78,7 +78,6 @@ body{
 
 .list2 ol a{
     display: block;
-    line-height: 3;
 }
 
 .fa-user{
@@ -259,6 +258,7 @@ body{
 .new3 img{
     width: 800px;
     border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgba(86, 86, 86, 0.5) ;
 }
 
 .bxslider{
@@ -425,7 +425,7 @@ body{
 
 .new1 ul li:hover{
    background-color: #544332;
-   box-shadow: 0 5px 10px 0 rgba(86, 86, 86, 0.5) ;
+   box-shadow: 0 5px 10px 0 rgba(86, 86, 86, 0.5);
 }
 
 /*----------------------- js ----------------------------------------*/

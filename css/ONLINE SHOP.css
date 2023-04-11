@@ -32,7 +32,7 @@ body{
     height: 120px;
     position: static;
     width: 100%;
-    z-index: 1;
+    z-index: 10000;
 }
 
 .list2{
@@ -80,7 +80,6 @@ body{
 
 .list2 ol a{
     display: block;
-    line-height: 3;
 }
 
 .fa-user{
@@ -303,8 +302,7 @@ body{
     cursor: pointer;
 }
 
-#lightbox1{
-  /*   border: 1px solid red; */
+.lightbox1{
     position: fixed;
     top: 0;
     left: 0;
@@ -317,8 +315,7 @@ body{
     display: none;
 }
   
-/* 元素 article 置中及基本樣式 */
-#lightbox1 > article{
+.lightbox1 > article{
     color: #544332;
     background-color: #FAF5ED;
     width: 90%;
@@ -862,7 +859,7 @@ a:hover>.fa-cart-shopping{
         font-size: 12px;
     }
 
-    #lightbox1 > article{
+    .lightbox1 > article{
         flex-direction: column;
         width: 340px;
         height: 450px;

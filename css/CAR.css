@@ -31,6 +31,7 @@ body{
     height: 120px;
     position: fixed;
     width: 100%;
+    z-index: 10000;
 }
 
 .list2{
@@ -78,7 +79,6 @@ body{
 
 .list2 ol a{
     display: block;
-    line-height: 3;
 }
 
 .fa-user{
@@ -211,7 +211,7 @@ select{
     border: none;
     width: 120px;
     border-radius: 10px;
-    background-color: #F3D1AA;
+    background-color: #FFE7CC;
 }
 
 /* -----------------------------------價錢 -----------------------------------------------*/
@@ -223,7 +223,7 @@ select{
     margin: 0 auto 50px;
     border-radius: 0 0 10px 10px;
     position: sticky;
-    top: 0;
+    top: 120px;
     /* display: none; */
 }
 
@@ -335,6 +335,10 @@ select{
     background-color: #F3D1AA;
     margin: 10px auto;
     margin-bottom: 20px;
+}
+
+.lightbox{
+    display: none;
 }
 
 /* ---------------------------------------------footer -----------------------------------------------*/
@@ -700,39 +704,161 @@ button.toggled span:nth-child(3) {
     }
 
     .total{
-        width: 90%;
-        height: 500px;
-        border-radius: 10px;
         display: none;
     }
 
-    .total h1{
-        margin: 30px 0 0 50px;
+    .lightbox{
+        display: block;
     }
 
-    .total h2{
-        line-height: 1;
-        padding-bottom: 10px;
+    .lightbox{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: hsla(0, 0%, 0%, .5);
+    }
+      
+    .none{
+        display: none;
+    }
+      
+    .lightbox > article{
+        color: #544332;
+        background-color: #FAF5ED;
+        width: 90%;
+        max-width: 800px;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
     }
 
-    .free{
-        margin: 30px 60px 0;
+    .total1{
+        background-color: #544332;
+        width: 90%;
+        height: 600px;
+        margin: 100px auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ddd;
+        position: fixed;
+        top: 5%;
+        left: 5%;
+        /* display: none; */
     }
-
-    .free1 input{
-        height: 20px;
+    
+    .total1 h1{
+        color: #F3D1AA;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 2;
+        letter-spacing: 0.2em;
+        margin: 50px 0 0 50px;
     }
-
+    
+    .total1 h2{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 2;
+        letter-spacing: 0.1em;
+        margin: 0 50px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+    }
+    
+    .total1.free{
+        color: rgba(255, 255, 255, 0.808);
+        margin: 50px 60px 0;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+    }
+    
+    .total1>.free1 input{
+        height: 24px;
+        width: 200px;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .total1>.free1>.name{
+        padding-left: 10px;
+    }
+    
+    .total1>.free1{
+        display: flex;
+    }
+    
+    .total1>.free1 h3{
+        color: #FFE7CC;
+        width: 100px;
+    }
+    
+    .total1>.free2{
+        margin: 30px 0 10px;
+        width: 250px;
+    }
+    
+    .total1>.free2>.free3{
+        color: #FFE7CC;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        width: 120px;
+    }
+    
+    .total1>.free3 p{
+        color: rgba(255, 255, 255, 0.808);
+    }
+    
+    .total1>.total2 h1{
+        color: #F3D1AA;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .total1>.total2 h2{
+        font-weight: 600;
+        font-size: 24px;
+        letter-spacing: 0.1em;
+        margin: 0 50px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+    }
+    
     .pay{
-        margin-left: 200px;
+        width: 80px;
+        margin-top: 20px;
+        margin-left: 230px;
+        cursor: pointer;
     }
-
-    .send2{
-        height: 40px;
+    
+    .total1>.send2{
+        color: #544332;
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: 0.1em;
+        text-align: center;
+        border: none;
+        width: 100px;
+        border-radius: 10px;
+        background-color: #F3D1AA;
     }
-
-    .send3{
-        height: 40px;
+    
+    .total1>.send3{
+        color: #544332;
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: 0.1em;
+        text-align: center;
+        border: none;
+        width: 100px;
+        border-radius: 10px;
+        background-color: #F3D1AA;
+        margin: 10px auto;
+        margin-bottom: 20px;
     }
 
     .footer{

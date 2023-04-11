@@ -47,11 +47,11 @@ $(document).ready(function(){
 
   $('.bxslider1').bxSlider({
     captions: true,
-    slideWidth: 360,
+    slideWidth: 390,
     minSlides: 1,
     maxSlides: 2
   });
-  $(".bx-wrapper").css({border: "0", margin: "30px 10px 80px"});
+  $(".bx-wrapper").css({border: "0", margin: "30px auto 80px"});
 
 });
   

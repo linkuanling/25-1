@@ -30,6 +30,7 @@ body{
     height: 120px;
     position: fixed;
     width: 100%;
+    z-index: 10000;
     /* display: none; */
 }
 
@@ -78,7 +79,6 @@ body{
 
 .list2 ol a{
     display: block;
-    line-height: 3;
 }
 
 .fa-user{
