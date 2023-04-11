@@ -100,6 +100,8 @@ body{
     display: none;
 }
 
+/*------------------------------------ lightbox1 ---------------------------------------------*/
+
 .lightbox1{
     background-color: #FAF5ED;
     position: fixed;
@@ -115,7 +117,6 @@ body{
     display: none;
 }
     
-
 .lightbox1 > article{
     background-color: white;
     width: 400px;
@@ -602,7 +603,7 @@ a:hover>.fa-cart-shopping{
     color: #FAF5ED;
 }
 
-/*--------------------------- js -------------------------------------*/
+/*----------------------------------- 漢堡 -------------------------------------*/
 
 .container{
     margin-top: 10px;

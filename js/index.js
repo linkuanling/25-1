@@ -22,12 +22,11 @@ $(function(){
 
 });
 
-
+/*---------------------------------------------------------------*/
 
 $(function(){
 
     if($(window).width()<=414){
-
       $("button").click(function(){
         $("button").toggleClass("toggled");
       });
@@ -36,11 +35,11 @@ $(function(){
       $('.container').click(function(){
         $('.nav_right ul').slideToggle();
       });
-    
     };
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
@@ -57,18 +56,20 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
   document.getElementById("mySelect").addEventListener("change", function() {
-    var selectedValue = this.value; // 獲取選擇的值
-    var iframe = document.getElementById("myIframe"); // 獲取 iframe 元素
-    iframe.src = selectedValue; // 將 iframe 的 src 設置為選擇的值
+    var selectedValue = this.value;
+    var iframe = document.getElementById("myIframe"); 
+    iframe.src = selectedValue;
   });
   
-})
+});
 
- 
+/*---------------------------------------------------------------*/
+
 let lightbox = document.getElementsByClassName("lightbox")[0];
 let fa_user = document.getElementsByClassName("fa-user")[0];
 

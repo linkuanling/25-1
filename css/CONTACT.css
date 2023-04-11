@@ -96,6 +96,8 @@ body{
     margin-right: 20px;
 }
 
+/*---------------------------------- lightbox ---------------------------------------*/
+
 .lightbox{
     background-color: #FAF5ED;
     position: fixed;
@@ -111,7 +113,6 @@ body{
     display: none;
 }
     
-
 .lightbox > article{
     background-color: white;
     width: 400px;

@@ -22,11 +22,11 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
     if($(window).width()<=414){
-  
       $("button").click(function(){
         $("button").toggleClass("toggled");
       });
@@ -35,11 +35,11 @@ $(function(){
       $('.container').click(function(){
         $('.nav_right ul').slideToggle();
       });
-      
     };
     
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
@@ -58,6 +58,7 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
@@ -74,6 +75,7 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
@@ -92,6 +94,7 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
@@ -110,7 +113,7 @@ $(function(){
 
 });
 
-
+/*---------------------------------------------------------------*/
 
 if($(window).width()<=414){
 
@@ -119,13 +122,11 @@ if($(window).width()<=414){
   // 檢視購物車
   var send1 = document.getElementsByClassName("send1")[0];
   send1.addEventListener("click", function(){
-    
     lightbox.classList.remove("none");
   });
 
   var send2 = document.getElementsByClassName("send2")[1];
     send2.addEventListener("click", function(){
-    
     lightbox.classList.add("none");
   });
 
@@ -139,6 +140,7 @@ if($(window).width()<=414){
 
 };
 
+/*---------------------------------------------------------------*/
 
 let lightbox1 = document.getElementsByClassName("lightbox1")[0];
 let fa_user = document.getElementsByClassName("fa-user")[0];

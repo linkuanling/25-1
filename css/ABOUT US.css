@@ -95,6 +95,8 @@ body{
     margin-right: 20px;
 }
 
+/*--------------------------- lightbox --------------------------------------*/
+
 .lightbox{
     background-color: #FAF5ED;
     position: fixed;
@@ -110,7 +112,6 @@ body{
     display: none;
 }
     
-
 .lightbox > article{
     background-color: white;
     width: 400PX;
@@ -205,6 +206,7 @@ article a{
     border-radius: 5px;
     cursor: pointer;
 }
+
 /* ------------------------------大標--------------------------------- */
 
 .top2{
@@ -482,7 +484,7 @@ article a{
     margin: 100px 80px 0;
 }
 
-/* -------------------------footer------------------------- */
+/* ------------------------------------footer-------------------------------------------- */
 
 .footer{
     background-image: url(../img/footer/footer.jpg);
@@ -556,7 +558,6 @@ article a{
     letter-spacing: 0.1em;
     line-height: 2;
 }
-
 
 .footer p{
     font-size: 12px;
@@ -658,7 +659,7 @@ article h6:hover{
     color: #FAF5ED;
 }
 
-/*----------------------- js ----------------------------------------*/
+/*----------------------------------- 漢堡 ----------------------------------------*/
 
 .container{
     margin-top: 10px;

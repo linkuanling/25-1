@@ -22,6 +22,8 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
+
 $(function(){
 
     if($(window).width()<=414){
@@ -37,6 +39,7 @@ $(function(){
   
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
@@ -66,6 +69,7 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(document).ready(function(){
 
@@ -80,7 +84,8 @@ $(document).ready(function(){
   $(".bx-wrapper").css({border: "0", margin: "30px auto 80px"});
 
 });
-  
+
+/*---------------------------------------------------------------*/
 
 $(document).ready(function(){
 
@@ -96,6 +101,7 @@ $(document).ready(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 let lightbox = document.getElementsByClassName("lightbox")[0];
 let fa_user = document.getElementsByClassName("fa-user")[0];

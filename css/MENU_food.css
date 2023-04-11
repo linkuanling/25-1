@@ -96,26 +96,7 @@ body{
     margin-right: 20px;
 }
 
-/* ---------------------------------大標------------------------------------ */
-
-.top2 h1{
-    font-size: 30px;
-    color: #faf5edd0;
-    font-weight: 600;
-    letter-spacing: 0.5em;
-    text-align: center;
-    margin-right: 800px;
-    padding-top: 150px;
-}
-
-.top2 h2{
-    font-size: 20px;
-    color: #faf5ed80;
-    font-weight: 600;
-    letter-spacing: 0.5em;
-    text-align: center;
-    margin-right: 800px;
-}
+/*------------------------------------------- lightbox ------------------------------------------*/
 
 .lightbox{
     background-color: #FAF5ED;
@@ -132,7 +113,6 @@ body{
     display: none;
 }
     
-
 .lightbox > article{
     background-color: white;
     width: 400px;
@@ -226,6 +206,27 @@ article a{
     background-color: #54433230;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* ---------------------------------大標------------------------------------ */
+
+.top2 h1{
+    font-size: 30px;
+    color: #faf5edd0;
+    font-weight: 600;
+    letter-spacing: 0.5em;
+    text-align: center;
+    margin-right: 800px;
+    padding-top: 150px;
+}
+
+.top2 h2{
+    font-size: 20px;
+    color: #faf5ed80;
+    font-weight: 600;
+    letter-spacing: 0.5em;
+    text-align: center;
+    margin-right: 800px;
 }
 
 /* --------------------------------------內容 ---------------------------------------*/
@@ -521,7 +522,7 @@ article h6:hover{
     color: #FAF5ED;
 }
 
-/*---------------------------- js --------------------------------------------*/
+/*----------------------------------------- 漢堡1 --------------------------------------------*/
 
 .container1{
     margin-top: 10px;
@@ -561,7 +562,7 @@ article h6:hover{
     margin-top: -12px;
 }
 
-/* ------------------------------------------------------------- */
+/*---------------------------------- 漢堡2 ----------------------------------------------*/
 
 .container2{
     margin-top: 10px;

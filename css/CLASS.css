@@ -95,6 +95,8 @@ body{
     margin-right: 20px;
 }
 
+/*---------------------------------------- lightbox --------------------------------------------*/
+
 .lightbox{
     background-color: #FAF5ED;
     position: fixed;
@@ -110,7 +112,6 @@ body{
     display: none;
 }
     
-
 .lightbox > article{
     background-color: white;
     width: 400px;
@@ -473,7 +474,6 @@ article a{
     line-height: 2;
 }
 
-
 .footer p{
     font-size: 12px;
     margin-top: 60px;
@@ -536,7 +536,7 @@ article h6:hover{
     color: #FAF5ED;
 }
 
-/*------------------------ js -----------------------------------*/
+/*-------------------------------------- 漢堡 -------------------------------------*/
 
 .container{
     margin-top: 10px;

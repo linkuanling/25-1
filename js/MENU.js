@@ -22,11 +22,11 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
     if($(window).width()<=414){
-  
       $(".button1").click(function(){
         $(".button1").toggleClass("toggled");
       });
@@ -35,16 +35,15 @@ $(function(){
       $('.container1').click(function(){
         $('.nav_right ul').slideToggle();
       });
-      
     };
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
     if($(window).width()<=414){
-  
       $(".button2").click(function(){
         $(".button2").toggleClass("toggled");
       });
@@ -53,16 +52,15 @@ $(function(){
       $('.container2').click(function(){
         $('.nav').slideToggle();
       });
-
     };
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
     if($(window).width()<=414){
-
       let i = $(".main")[0].getBoundingClientRect().top + window.scrollY;
       
       $(window).scroll(function(){
@@ -73,7 +71,6 @@ $(function(){
         // console.log( $(".nav")[0].offsetTop);
         
         if(window.scrollY > i){
-          
           $(".nav")[0].style.top =  window.scrollY - i + "px"
           }
         else{
@@ -86,6 +83,7 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 let lightbox = document.getElementsByClassName("lightbox")[0];
 let fa_user = document.getElementsByClassName("fa-user")[0];

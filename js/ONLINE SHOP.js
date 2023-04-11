@@ -22,11 +22,11 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
     if($(window).width()<=414){
-    
       $(".button1").click(function(){
         $(".button1").toggleClass("toggled");
       });
@@ -35,7 +35,6 @@ $(function(){
       $('.container1').click(function(){
         $('.nav_right ul').slideToggle();
       });
-        
     };
 
 });
@@ -44,7 +43,6 @@ $(function(){
 $(function(){
 
     if($(window).width()<=414){
-
       $(".button2").click(function(){
         $(".button2").toggleClass("toggled");
       });
@@ -53,16 +51,15 @@ $(function(){
       $('.container2').click(function(){
         $('.nav').slideToggle();
       });
-
     };
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
     if($(window).width()<=414){
-
       let i = $(".main")[0].getBoundingClientRect().top + window.scrollY;
       
       $(window).scroll(function(){
@@ -85,6 +82,7 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
@@ -100,10 +98,11 @@ $(function(){
 
 });
 
-
+/*---------------------------------------------------------------*/
 
 let lightbox1 = document.getElementsByClassName("lightbox1")[0];
 let productIntro = document.getElementsByClassName("productIntro");
+
 // 了解詳情
 var in1 = document.getElementsByClassName("in1");
 for(let i=0 ; i<=8 ; i++){
@@ -114,11 +113,14 @@ for(let i=0 ; i<=8 ; i++){
     for(let j=0 ; j<=8 ; j++){
       productIntro[j].style.display = "none"
     }
-      productIntro[i].style.display = "block"
+
+    productIntro[i].style.display = "block"
 
   });
 
 };
+
+/*---------------------------------------------------------------*/
 
 var close1 = document.getElementsByClassName("close1")[0];
 close1.addEventListener("click", function(){
@@ -133,7 +135,7 @@ lightbox1.querySelector("article").addEventListener("click", function(e){
   e.stopPropagation();
 });
 
-
+/*---------------------------------------------------------------*/
 
 $(function(){
 
@@ -161,6 +163,7 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 let lightbox = document.getElementsByClassName("lightbox")[0];
 let fa_user = document.getElementsByClassName("fa-user")[0];

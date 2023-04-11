@@ -22,11 +22,11 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
     if($(window).width()<=414){
-  
       $("button").click(function(){
         $("button").toggleClass("toggled");
       });
@@ -35,11 +35,11 @@ $(function(){
       $('.container').click(function(){
         $('.nav_right ul').slideToggle();
       });
-      
     };
   
 });
 
+/*---------------------------------------------------------------*/
 
 let lightbox = document.getElementsByClassName("lightbox")[0];
 let fa_user = document.getElementsByClassName("fa-user")[0];

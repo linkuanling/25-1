@@ -22,6 +22,7 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
@@ -38,6 +39,7 @@ $(function(){
     
 });
 
+/*---------------------------------------------------------------*/
 
 $(function(){
 
@@ -56,6 +58,7 @@ $(function(){
 
 });
 
+/*---------------------------------------------------------------*/
 
 let lightbox = document.getElementsByClassName("lightbox")[0];
 let fa_user = document.getElementsByClassName("fa-user")[0];
