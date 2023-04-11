@@ -86,6 +86,7 @@ body{
     font-size: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .fa-cart-shopping{
@@ -97,6 +98,117 @@ body{
 
 .top2{
     display: none;
+}
+
+.lightbox1{
+    background-color: #FAF5ED;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: hsla(0, 0%, 0%, .5);
+    z-index: 9999;
+}
+
+.none1{
+    display: none;
+}
+    
+
+.lightbox1 > article{
+    background-color: white;
+    width: 400px;
+    height: 420px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+    padding: 10px;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lightbox1 > article{
+    color: #544332;
+    font-weight: 600;
+}
+
+.fa-circle-user{
+    color: #54433290;
+    width: 400px;
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.lightbox1 > article h1{
+    font-size: 24px;
+    text-align: center;
+}
+
+.input1{
+    margin: 20px 110px 20px;
+}
+
+.mail{
+    margin-top: 5px;
+    padding-left: 10px;
+    height: 20px;
+}
+
+.input2{
+    margin: 0 110px;
+}
+
+.password{
+    margin-top: 5px;
+    padding-left: 10px;
+    height: 20px;
+}
+
+.lightbox1 > article h6{
+    color: #544332aa;
+    font-size: 12px;
+    margin: 10px 110px;
+    letter-spacing: 0.1em;
+}
+
+.lightbox1 > article a{
+    text-decoration: none;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+}
+
+.register>.send4{
+    font-weight: 600;
+    color: #544332;
+    width: 180px;
+    margin: 10px auto;
+    height: 30px;
+    border: 0;
+    letter-spacing: 0.3em;
+    background-color: #54433230;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register>.send5{
+    font-weight: 600;
+    color: #544332;
+    width: 180px;
+    margin: 10px auto;
+    height: 30px;
+    border: 0;
+    letter-spacing: 0.3em;
+    background-color: #54433230;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* -------------------------------------全部內文 ---------------------------------------------------------*/
@@ -126,7 +238,7 @@ body{
     font-size: 30px;
     line-height: 2;
     letter-spacing: 0.5em;
-    margin: 50px 0 50px 100px;
+    margin: 50px 0 50px 120px;
 }
 
 /* ---------------------------------------商品--------------------------------------------------- */
@@ -432,7 +544,7 @@ select{
     border-bottom: 2px solid #00698088;
 }
 
-a:hover>.fa-user{
+.fa-user:hover{
     color: #F3D1AA;
 }
 
@@ -472,6 +584,22 @@ a:hover>.fa-cart-shopping{
 
 .fa-trash-can:hover{
     color: #874800;
+}
+
+.lightbox1 article h6:hover{
+    color: #544332;
+    text-decoration: underline;
+    width: 80px;
+}
+
+.register>.send4:hover{
+    background-color: #544332;
+    color: #FAF5ED;
+}
+
+.register>.send5:hover{
+    background-color: #544332;
+    color: #FAF5ED;
 }
 
 /*--------------------------- js -------------------------------------*/
@@ -620,6 +748,10 @@ button.toggled span:nth-child(3) {
         font-size: 16px;
     }
 
+    .lightbox1 > article{
+        top: 50%;
+    }
+
     .main{
         width: 100vw;
     }
@@ -635,7 +767,7 @@ button.toggled span:nth-child(3) {
         font-size: 24px;
         margin: 0;
         margin-top: 30px;
-        margin-left: 140px;
+        margin-left: 35px;
     }
 
     .car ul{
@@ -672,6 +804,7 @@ button.toggled span:nth-child(3) {
     .title h2{
         font-size: 20px;
         line-height: 1.5;
+        margin-left: 5px;
     }
 
     select{
@@ -741,12 +874,12 @@ button.toggled span:nth-child(3) {
     .total1{
         background-color: #544332;
         width: 90%;
-        height: 600px;
+        height: 550px;
         margin: 100px auto;
         border-radius: 10px;
         box-shadow: 0 0 10px #ddd;
         position: fixed;
-        top: 5%;
+        top: 0;
         left: 5%;
         /* display: none; */
     }
@@ -757,7 +890,7 @@ button.toggled span:nth-child(3) {
         font-size: 20px;
         line-height: 2;
         letter-spacing: 0.2em;
-        margin: 50px 0 0 50px;
+        margin: 30px 0 0 50px;
     }
     
     .total1 h2{
@@ -829,9 +962,9 @@ button.toggled span:nth-child(3) {
     }
     
     .pay{
-        width: 80px;
-        margin-top: 20px;
-        margin-left: 230px;
+        width: 100px;
+        margin-top: 30px;
+        margin-left: 210px;
         cursor: pointer;
     }
     
