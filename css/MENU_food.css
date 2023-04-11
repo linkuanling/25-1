@@ -116,7 +116,7 @@ body{
 .lightbox > article{
     background-color: white;
     width: 400px;
-    height: 420px;
+    height: 450px;
     max-width: 800px;
     border-radius: 10px;
     box-shadow: 0 0 10px #ddd;
@@ -690,7 +690,12 @@ article h6:hover{
         font-size: 16px;
     }
 
-    .nav_right ol .fa-solid, .fas {
+    .fa-user{
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .fa-cart-shopping{
         margin: 10px;
         font-size: 16px;
     }
@@ -708,6 +713,40 @@ article h6:hover{
 
     .lightbox > article{
         top: 50%;
+    }
+
+    .fa-circle-user{
+        font-size: 60px;
+        padding-bottom: 5px;
+    }
+
+    .input1{
+        letter-spacing: 0.1em;
+        margin: 20px 120px 10px;
+    }
+
+    .input2{
+        letter-spacing: 0.1em;
+        margin: 0 120px;
+    }
+
+    article h6{
+        margin: 5px 130px 10px;
+    }
+
+    .register>.send4{
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        width: 150px;
+        height: 40px;
+        margin: 20px auto 5px;
+    }
+
+    .register>.send5{
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        width: 150px;
+        height: 40px;
     }
 
     .main{
@@ -814,7 +853,7 @@ article h6:hover{
     }
 
     .text{
-        width: 120px;
+        width: 110px;
     }
 
     .menu ul h3{
@@ -831,8 +870,6 @@ article h6:hover{
 
     .menu ul li i{
         margin: 10px auto;
-        width: 132px;
-        /* flex-direction: row; */
     }
     
     .menu ul li i h5{

@@ -121,7 +121,7 @@ body{
 .lightbox > article{
     background-color: white;
     width: 400px;
-    height: 420px;
+    height: 450px;
     max-width: 800px;
     border-radius: 10px;
     box-shadow: 0 0 10px #ddd;
@@ -132,7 +132,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
-.lightbox>article{
+article{
     color: #544332;
     font-weight: 600;
 }
@@ -146,7 +146,7 @@ body{
     text-align: center;
 }
 
-.lightbox>article h1{
+article h1{
     font-size: 24px;
     text-align: center;
 }
@@ -171,14 +171,14 @@ body{
     height: 20px;
 }
 
-.lightbox>article h6{
+article h6{
     color: #544332aa;
     font-size: 12px;
     margin: 10px 110px;
     letter-spacing: 0.1em;
 }
 
-.lightbox>article a{
+article a{
     text-decoration: none;
 }
 
@@ -840,7 +840,12 @@ a:hover>.fa-cart-shopping{
         font-size: 16px;
     }
 
-    .nav_right ol .fa-solid, .fas {
+    .fa-user{
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .fa-cart-shopping{
         margin: 10px;
         font-size: 16px;
     }
@@ -866,6 +871,40 @@ a:hover>.fa-cart-shopping{
 
     .lightbox > article{
         top: 50%;
+    }
+
+    .fa-circle-user{
+        font-size: 60px;
+        padding-bottom: 5px;
+    }
+
+    .input1{
+        letter-spacing: 0.1em;
+        margin: 20px 120px 10px;
+    }
+
+    .input2{
+        letter-spacing: 0.1em;
+        margin: 0 120px;
+    }
+
+    article h6{
+        margin: 5px 130px 10px;
+    }
+
+    .register>.send4{
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        width: 150px;
+        height: 40px;
+        margin: 20px auto 5px;
+    }
+
+    .register>.send5{
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        width: 150px;
+        height: 40px;
     }
 
     .title{
