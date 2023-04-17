@@ -105,7 +105,7 @@ body{
     width: 100%;
     height: 100vh;
     background-color: hsla(0, 0%, 0%, .5);
-    z-index: 9999;
+    z-index: 10000;
 }
 
 .none{
@@ -115,13 +115,13 @@ body{
 .lightbox > article{
     background-color: white;
     width: 400px;
-    height: 450px;
+    height: 460px;
     max-width: 800px;
     border-radius: 10px;
     box-shadow: 0 0 10px #ddd;
     padding: 10px;
     position: absolute;
-    top: 56%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -168,7 +168,7 @@ article h1{
 article h6{
     color: #544332aa;
     font-size: 12px;
-    margin: 10px 110px;
+    margin: 5px 110px;
     letter-spacing: 0.1em;
 }
 
@@ -182,16 +182,24 @@ article a{
 }
 
 .register>.send4{
+    font-size: 20px;
     font-weight: 600;
     color: #544332;
     width: 180px;
     margin: 10px auto;
-    height: 30px;
+    height: 40px;
     border: 0;
     letter-spacing: 0.3em;
     background-color: #54433230;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.register h5{
+    color: #544332aa;
+    font-size: 12px;
+    margin: 20px 110px 0;
+    letter-spacing: 0.1em;
 }
 
 .register>.send5{
@@ -218,15 +226,19 @@ article a{
 }
 
 .top2 h1{
-    padding-top: 15%;
+    padding-top: 14%;
     padding-left: 10%;
+    line-height: 2;
 }
 
 .top2 h2{
-    padding-left: 10%;
+    padding-top: 4%;
+    padding-left: 20%;
+    line-height: 2;
 }
 
 .top2 h3{
+    padding-top: 3%;
     padding-left: 10%;
 }
 
@@ -384,7 +396,7 @@ article a{
     background-color: #006980;
     height: 700px;
     background-size: cover;
-    /* display: none; */
+    display: none;
 }
 
 .search{
@@ -636,7 +648,7 @@ button.toggled span:nth-child(3) {
     }
 
     .list2 ul {
-        background-image: linear-gradient(180deg, #2c2218db 50% ,  #413223bb 100%);
+        background-color: #2c2218;
         font-size: 16px;
         display: flex;
         align-items: center;
@@ -692,10 +704,11 @@ button.toggled span:nth-child(3) {
     }
 
     .top2 h1 {
+        /* width: 175px; */
         font-size: 16px;
         padding-top: 0;
         padding-left: 0;
-        padding: 200px 70px 0;
+        padding: 160px 80px 0;
         line-height: 2;
     }
     
@@ -713,40 +726,45 @@ button.toggled span:nth-child(3) {
 
     .lightbox > article{
         top: 50%;
+        width: 80%;
     }
 
     .fa-circle-user{
         font-size: 60px;
         padding-bottom: 5px;
+        width: 100%;
     }
 
     .input1{
         letter-spacing: 0.1em;
-        margin: 20px 120px 10px;
+        margin: 20px 71px 10px;
     }
 
     .input2{
         letter-spacing: 0.1em;
-        margin: 0 120px;
+        margin: 0 71px;
     }
 
     article h6{
-        margin: 5px 130px 10px;
+        margin: 5px 80px 10px;
+        text-decoration: underline;
     }
 
     .register>.send4{
-        font-size: 18px;
         letter-spacing: 0.2em;
         width: 150px;
-        height: 40px;
-        margin: 20px auto 5px;
+        margin: 20px auto;
+    }
+
+    .register h5{
+        margin: 10px 80px 0;
     }
 
     .register>.send5{
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: 0.2em;
         width: 150px;
-        height: 40px;
+        height: 35px;
     }
 
     .new1{
@@ -906,63 +924,64 @@ button.toggled span:nth-child(3) {
     .footer li{
         margin-top: 0;
         margin-left: 0;
+        margin: 20px auto 0;
         font-size: 10px;
         align-items: center;
     }
 
     .footer ul li h2{
-        font-size: 20px;
-        margin-top: 50px;
+        font-size: 16px;
+        margin-top: 0;
         text-align: center;
-        letter-spacing: 0.3em;
+        letter-spacing: 0.2em;
     }
 
     .footer ul li h3{
-        font-size: 30px;
+        font-size: 24px;
         text-align: center;
         padding-right: 20px;
         margin-top: 0;
     }
 
     .footer ul li h4{
-        width: 200px;
+        width: 160px;
         padding-right: 0;
-        margin-top: 20px;
+        padding-top: 0;
     }
 
     .footer ul li h4 img{
-        width: 200px;
+        width: 160px;
     }
 
     .footer ul li:last-child{
         flex-direction: column;
     }
 
-    .code{
-        margin-top: 20px;
-    }
-
     .footer ul li h5{
-        padding-top: 40px;
+        padding-top: 10px;
     }
 
     .footer ul li h5 img{
-        width: 70px;
+        width: 60px;
     }
 
     .footer ul li h6{
+        padding-top: 10px;
         padding-left: 10px;
         font-size: 12px;
         font-weight: 550;
+        line-height: 1.6;
     }
 
     .footer p{
+        font-size: 10px;
         margin-top: 0;
-        width: 88%;
-        margin: 80px auto 0;
+        width: 92%;
+        margin: 30px auto 0;
         line-height: 1.5;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         text-align: justify;
+        letter-spacing: 0.1em;
     }
     
 }

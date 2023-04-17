@@ -7,17 +7,17 @@ $(function(){
       } else {
         $(this).css("color", "#F3D1AA"); 
       }
-      clicked1 =!clicked1;
+      clicked1 =! clicked1;
     });
 
-    var clicked2 = false;
+  var clicked2 = false;
     $('.fa-cart-shopping').click(function(){
       if(clicked2){
         $(this).css("color", "#FAF5ED"); 
       } else {
         $(this).css("color", "#F3D1AA"); 
       }
-      clicked2 =!clicked2;
+      clicked2 =! clicked2;
     });
 
 });
